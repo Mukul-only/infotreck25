@@ -51,7 +51,7 @@ const Body = (props) => {
       </div>
 
       {/* mobile */}
-      <div className="absolute left-0 right-0 flex flex-col items-center justify-end pb-8 bottom-1/20 md:pb-12 md:hidden">
+      <div className="absolute left-0 right-0 flex flex-col items-center justify-end pb-8 top-7/10 md:pb-12 md:hidden">
         {/* UPDATED DISCOVER EVENT BUTTON */}
         <Link
           to="/events"
