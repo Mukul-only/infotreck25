@@ -118,7 +118,7 @@ const RegistrationModal = ({ isOpen, onClose, event }) => {
       <div
         className="bg-neutral-800 border border-neutral-700 shadow-2xl rounded-xl w-full max-w-md 
                    transform transition-all duration-300 ease-in-out 
-                   flex flex-col max-h-[90vh]" // Limit height and enable flex column
+                   flex flex-col max-h-[80vh]" // Limit height and enable flex column
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Header (Not scrollable, fixed at top of modal content) */}

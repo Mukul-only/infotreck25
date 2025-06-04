@@ -21,19 +21,18 @@ const Body = (props) => {
             innovation takes flight among the stars
           </span>
         </p>
+        <div className="block pt-4 md:hidden">
+          <h1 className="text-4xl text-white font-extralight">
+            <span className="block">November</span>
+            27th ,2025
+          </h1>
+          <p className="font-light lg:text-xl xl:text-lg 2xl:text-xl text-a">
+            Nit, trichy
+          </p>
+        </div>
       </div>
 
-      <div className="block md:hidden">
-        <h1 className="text-4xl text-white font-extralight">
-          <span className="block">November</span>
-          27th ,2025
-        </h1>
-        <p className="font-light lg:text-xl xl:text-lg 2xl:text-xl text-a">
-          Nit, trichy
-        </p>
-      </div>
-
-      <div className="flex flex-col items-center justify-end pb-4 md:pb-12">
+      <div className="flex flex-col items-center justify-end pb-28 md:pb-12">
         {/* UPDATED DISCOVER EVENT BUTTON */}
         <Link
           to="/events"
