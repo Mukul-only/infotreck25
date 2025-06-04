@@ -23,7 +23,7 @@ function HomePage() {
     <div className="relative flex min-h-screen">
       {" "}
       {/* min-h-screen helps layout */}
-      <div className="absolute top-0 left-0 z-[5000] w-screen h-screen flex flex-col bg-black/10">
+      <div className="absolute top-0 left-0 z-[5000] w-screen h-full flex flex-col bg-black/10">
         <Header />
         <Body />
       </div>
