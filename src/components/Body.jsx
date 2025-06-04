@@ -23,7 +23,7 @@ const Body = (props) => {
         </p>
       </div>
 
-      <div className="block pb-12 md:hidden">
+      <div className="block md:hidden">
         <h1 className="text-4xl text-white font-extralight">
           <span className="block">November</span>
           27th ,2025
@@ -33,7 +33,7 @@ const Body = (props) => {
         </p>
       </div>
 
-      <div className="flex flex-col items-center justify-end pb-6 md:pb-12">
+      <div className="flex flex-col items-center justify-end pb-4 md:pb-12">
         {/* UPDATED DISCOVER EVENT BUTTON */}
         <Link
           to="/events"

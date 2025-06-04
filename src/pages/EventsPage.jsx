@@ -121,7 +121,7 @@ const EventsPage = () => {
 
   return (
     <div className="relative">
-      <StarrySky />
+      {/* <StarrySky /> */}
       <div className="absolute inset-0 min-h-screen overflow-y-auto text-white bg-black/30">
         <Header /> {/* Assuming Header is static or has its own animation */}
         <Wrapper>
