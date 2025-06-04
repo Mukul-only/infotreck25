@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Body = (props) => {
   return (
-    <Wrapper className="flex flex-col justify-between flex-1 w-full md:flex-row ">
+    <Wrapper className="flex flex-col flex-1 w-full md:justify-between md:flex-row ">
       <div className="flex flex-col pt-8 w-[15rem] mb:pt-36 2xl:w-[30rem] lg:w-[25rem] md:w-[20rem] ">
         <h1 className="text-5xl leading-9 tracking-tighter md:text-6xl md:leading-12 lg:leading-14 lg:text-7xl 2xl:text-8xl 2xl:leading-22 xl:leading-16 font-regular grad">
           <span className="block pt-2">Discover</span>
@@ -31,7 +31,27 @@ const Body = (props) => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-end pb-8 md:pb-12">
+      <div className="flex-col items-center justify-end hidden pb-8 md:flex md:pb-12 ">
+        {/* UPDATED DISCOVER EVENT BUTTON */}
+        <Link
+          to="/events"
+          className="relative flex flex-col items-center justify-center w-24 h-24 p-4 overflow-hidden text-sm font-light leading-4 text-white transition-colors duration-300 ease-in-out border border-white rounded-full cursor-pointer group md:text-base md:w-28 md:h-28 hover:border-white"
+        >
+          <div className="absolute inset-0 z-0 w-full h-full transition-transform duration-300 ease-in-out origin-center transform scale-0 bg-white rounded-full group-hover:scale-100"></div>
+          <div className="relative z-10 flex flex-col items-center justify-center">
+            <Arrow className="w-10 h-10 text-white transition-colors duration-300 ease-in-out md:w-14 md:h-14 group-hover:text-neutral-800" />
+            <span className="text-white transition-colors duration-300 ease-in-out group-hover:text-neutral-800">
+              Discover
+            </span>
+            <span className="text-white transition-colors duration-300 ease-in-out group-hover:text-neutral-800">
+              event
+            </span>
+          </div>
+        </Link>
+      </div>
+
+      {/* mobile */}
+      <div className="absolute left-0 right-0 flex flex-col items-center justify-end pb-8 bottom-1/20 md:pb-12 md:hidden">
         {/* UPDATED DISCOVER EVENT BUTTON */}
         <Link
           to="/events"
