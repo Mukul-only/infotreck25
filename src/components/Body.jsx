@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 const Body = (props) => {
   return (
     <Wrapper className="flex flex-col justify-between flex-1 w-full md:flex-row ">
-      <div className="flex flex-col pt-8 w-[20rem] mb:pt-36 2xl:w-[30rem] lg:w-[25rem] md:w-[20rem] ">
-        <h1 className="text-6xl tracking-tighter leading-11 md:text-6xl md:leading-12 lg:leading-14 lg:text-7xl 2xl:text-8xl 2xl:leading-22 xl:leading-16 font-regular grad">
+      <div className="flex flex-col pt-8 w-[15rem] mb:pt-36 2xl:w-[30rem] lg:w-[25rem] md:w-[20rem] ">
+        <h1 className="text-5xl leading-9 tracking-tighter md:text-6xl md:leading-12 lg:leading-14 lg:text-7xl 2xl:text-8xl 2xl:leading-22 xl:leading-16 font-regular grad">
           <span className="block pt-2">Discover</span>
           <span className="block pb-5">the wonders of space</span>
         </h1>
-        <p className="font-light lg:pt-4 md:text-sm lg:leading-5 lg:text-base xl:text-xl">
+        <p className="text-xs font-light lg:pt-4 md:text-sm lg:leading-5 lg:text-base xl:text-xl">
           <span className="block text-a">
             A cosmic convergence of code, creativity, and
           </span>
@@ -21,18 +21,17 @@ const Body = (props) => {
             innovation takes flight among the stars
           </span>
         </p>
-        <div className="block pt-4 md:hidden">
-          <h1 className="text-4xl text-white font-extralight">
+        <div className="block pt-6 md:hidden">
+          <h1 className="text-3xl leading-7 text-white font-extralight">
             <span className="block">November</span>
             27th ,2025
           </h1>
-          <p className="font-light lg:text-xl xl:text-lg 2xl:text-xl text-a">
+          <p className="text-xs font-light lg:text-xl xl:text-lg 2xl:text-xl text-a">
             Nit, trichy
           </p>
         </div>
       </div>
-
-      <div className="flex flex-col items-center justify-end pb-28 md:pb-12">
+      <div className="flex flex-col items-center justify-end pb-24 md:pb-12">
         {/* UPDATED DISCOVER EVENT BUTTON */}
         <Link
           to="/events"
