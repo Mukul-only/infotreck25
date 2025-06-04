@@ -3,7 +3,7 @@ export const events = [
   {
     id: 1,
     title: "Algorithma",
-    image: "/assets/events/algorithma.png", // Replace with actual image path
+    image: "/assets/events/algorithma.webp", // Replace with actual image path
     eventType: "technical",
     playerMode: "single player",
     subCategory: null,
@@ -12,7 +12,7 @@ export const events = [
   {
     id: 2,
     title: "Type racer",
-    image: "/assets/events/type-racer.png", // Replace with actual image path
+    image: "/assets/events/type-racer.webp", // Replace with actual image path
     eventType: "non-tech",
     playerMode: "single player",
     subCategory: null,
@@ -21,7 +21,7 @@ export const events = [
   {
     id: 3,
     title: "Emoji charades",
-    image: "/assets/events/emoji-charades.png", // Replace with actual image path
+    image: "/assets/events/emoji-charades.webp", // Replace with actual image path
     eventType: "non-tech",
     playerMode: "team based",
     subCategory: null,
@@ -30,7 +30,7 @@ export const events = [
   {
     id: 4,
     title: "Crack the password",
-    image: "/assets/events/crack-password.png", // Replace with actual image path
+    image: "/assets/events/crack-password.webp", // Replace with actual image path
     eventType: "non-tech", // As per image
     playerMode: "single player",
     subCategory: null,
@@ -39,7 +39,7 @@ export const events = [
   {
     id: 5,
     title: "Reverse engineering",
-    image: "/assets/events/reverse-engineering.png", // Replace with actual image path
+    image: "/assets/events/reverse-engineering.webp", // Replace with actual image path
     eventType: "technical",
     playerMode: "single player",
     subCategory: null,
@@ -48,7 +48,7 @@ export const events = [
   {
     id: 6,
     title: "Destinite",
-    image: "/assets/events/destinite.png", // Replace with actual image path
+    image: "/assets/events/destinite.webp", // Replace with actual image path
     eventType: "non-tech",
     playerMode: "single player",
     subCategory: null,
@@ -57,7 +57,7 @@ export const events = [
   {
     id: 7,
     title: "Treasure hunt",
-    image: "/assets/events/treasure-hunt.png", // Replace with actual image path
+    image: "/assets/events/treasure-hunt.webp", // Replace with actual image path
     eventType: "non-tech",
     playerMode: "team based",
     subCategory: null,
@@ -66,7 +66,7 @@ export const events = [
   {
     id: 8,
     title: "Replicode",
-    image: "/assets/events/replicode.png", // Replace with actual image path
+    image: "/assets/events/replicode.webp", // Replace with actual image path
     eventType: "technical", // As per image
     playerMode: "team based",
     subCategory: "webdev",
@@ -75,7 +75,7 @@ export const events = [
   {
     id: 9,
     title: "CS Quiz",
-    image: "/assets/events/cs-quiz.png", // Replace with actual image path
+    image: "/assets/events/cs-quiz.webp", // Replace with actual image path
     eventType: "technical",
     playerMode: "single player",
     subCategory: "cs",
@@ -84,7 +84,7 @@ export const events = [
   {
     id: 10,
     title: "Break the bug",
-    image: "/assets/events/break-the-bug.png", // Replace with actual image path
+    image: "/assets/events/break-the-bug.webp", // Replace with actual image path
     eventType: "technical",
     playerMode: "single player",
     subCategory: null,
@@ -93,7 +93,7 @@ export const events = [
   {
     id: 11,
     title: "Crypt of the Necrodancer",
-    image: "/assets/events/crypt-necrodancer.png", // Replace with actual image path
+    image: "/assets/events/crypt-necrodancer.webp", // Replace with actual image path
     eventType: "non-tech",
     playerMode: "single player",
     subCategory: "gaming",
@@ -102,7 +102,7 @@ export const events = [
 ];
 
 // **Important:**
-// 1. Create a folder `public/assets/events/` and place your event images there (e.g., `public/assets/events/algorithma.png`).
+// 1. Create a folder `public/assets/events/` and place your event images there (e.g., `public/assets/events/algorithma.webp`).
 //    Alternatively, if you import images into your JS, place them in `src/assets/events/` and import them.
 //    For simplicity with paths, using the `public` folder is often easier for static assets like these initially.
 // 2. Adjust the `image` paths in the data above accordingly.

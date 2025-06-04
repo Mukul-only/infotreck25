@@ -2,7 +2,7 @@ export const eventRichDetails = [
   {
     id: 1,
     title: "Algorithmia",
-    detailsImage: "/assets/events/algorithma.png",
+    detailsImage: "/assets/events/algorithma.webp",
     tagline: "Think. Code. Conquer.",
     introduction:
       "Algorithmia is a technical coding competition where participants will be given 5 programming questions to solve on the HackerEarth platform. You'll have 2 hours to solve as many as you can – so manage your time wisely, think strategically, and let your code do the talking.", // Renamed from 'description' to avoid confusion with eventsData.js's description
@@ -46,7 +46,7 @@ export const eventRichDetails = [
   {
     id: 2,
     title: "Type Racer",
-    detailsImage: "/assets/events/type-racer.png",
+    detailsImage: "/assets/events/type-racer.webp",
     tagline: "If you can type, you can race!",
     introduction:
       "Type Racer is a single-player typing competition where participants must type a given paragraph as quickly and accurately as possible. The twist? There are checkpoints placed throughout the text, and any mistake past a checkpoint forces you to restart from that checkpoint.", // Renamed from 'description' to avoid confusion with eventsData.js's description
@@ -88,7 +88,7 @@ export const eventRichDetails = [
   {
     id: 3,
     title: "Emoji Charades",
-    detailsImage: "/assets/events/emoji-charades.png",
+    detailsImage: "/assets/events/emoji-charades.webp",
     tagline: "Can your team emoji its way to victory? 🎯🏆",
     introduction:
       "Emoji Charades is a fun and fast-paced two-player team game where one player is given movie names and must describe them using only emojis. The teammate must then guess the movie title based solely on the emoji clues. It's a game of creativity, teamwork, and emoji brilliance!",
@@ -133,7 +133,7 @@ export const eventRichDetails = [
   {
     id: 4,
     title: "Crack the Password",
-    detailsImage: "/assets/events/crack-password.png",
+    detailsImage: "/assets/events/crack-password.webp",
     tagline: "Unlock. Solve. Conquer!",
     introduction:
       "Crack the Password is a thrilling single-player event hosted on a custom web platform where players must unlock a series of folders. Each folder is locked behind a unique question, and players must answer correctly to proceed. The player who unlocks the most folders in the least amount of time wins!",
@@ -177,7 +177,7 @@ export const eventRichDetails = [
   {
     id: 5,
     title: "Reverse Engineering",
-    detailsImage: "/assets/events/reverse-engineering.png",
+    detailsImage: "/assets/events/reverse-engineering.webp",
     tagline: "Decode the Logic. Master the Machine.",
     introduction:
       "Reverse Engineering is a technical single-player event hosted on a web platform where participants are challenged to deduce hidden logic behind given input-output pairs. Players must identify the underlying pattern and write code that mimics the observed behavior. The participant who deciphers the most patterns with accurate code in the shortest time wins.",
@@ -222,7 +222,7 @@ export const eventRichDetails = [
   {
     id: 6,
     title: "Destinite",
-    detailsImage: "/assets/events/destinite.png",
+    detailsImage: "/assets/events/destinite.webp",
     tagline: "Where Potential Meets Opportunity.",
     introduction:
       "Destinite is a prestigious one-on-one interview-based event, where the top performers of INFOTRECK are shortlisted and interviewed by a panel. It aims to identify not just technical proficiency, but also communication skills, mindset, and leadership potential. This is where your journey takes a leap forward.",
@@ -265,7 +265,7 @@ export const eventRichDetails = [
   {
     id: 7,
     title: "Treasure Hunt",
-    detailsImage: "/assets/events/treasure-hunt.png",
+    detailsImage: "/assets/events/treasure-hunt.webp",
     tagline: "Solve the clues, follow the trail, find the treasure!",
     introduction:
       "Treasure Hunt is a thrilling team-based offline event where participants race across the NITT campus to uncover clues, solve challenges, and ultimately discover the final destination. It’s a high-energy blend of brainwork, teamwork, and adventure that keeps you on your toes from start to finish.",
@@ -311,7 +311,7 @@ export const eventRichDetails = [
   {
     id: 8,
     title: "Replicode",
-    detailsImage: "/assets/events/replicode.png",
+    detailsImage: "/assets/events/replicode.webp",
     tagline: "Code what you see — Pixel perfect or nothing!",
     introduction:
       "Replicode is a technical, team-based event where participants are shown the UI of a simple website and must replicate it on their own systems within a given time. Precision, attention to detail, and frontend development skills are key. The team whose replica most closely matches the original design wins!",
@@ -356,7 +356,7 @@ export const eventRichDetails = [
   {
     id: 9,
     title: "CS Quiz",
-    detailsImage: "/assets/events/cs-quiz.png",
+    detailsImage: "/assets/events/cs-quiz.webp",
     tagline: "Think. Solve. Win. 💡",
     introduction:
       "CS Quiz is a fast-paced, single-player technical quiz that tests your knowledge across various domains of computer science — from algorithms to databases, OS, networks, and more. Hosted on HackerEarth or a similar online platform, it’s your chance to prove your CS fundamentals in a competitive environment.",
@@ -399,7 +399,7 @@ export const eventRichDetails = [
   {
     id: 10,
     title: "Break the Bug",
-    detailsImage: "/assets/events/break-the-bug.png",
+    detailsImage: "/assets/events/break-the-bug.webp",
     tagline: "Debug your way to victory!",
     introduction:
       "Break the Bug is a single-player debugging challenge where participants are presented with 4–5 pre-written code snippets that do not produce the correct output. Your task? Identify the bug and fix the code to make it work perfectly. The event tests your debugging, logical reasoning, and attention to detail — all within a tight time limit.",

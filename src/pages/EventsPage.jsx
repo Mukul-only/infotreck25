@@ -232,9 +232,15 @@ const EventsPage = () => {
               />
             </motion.div>
 
-            <p className="mb-8 text-xs text-txt sm:text-sm md:mb-10">
+            <motion.p
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.3 }}
+              variants={fadeUp}
+              className="mb-8 text-xs text-txt sm:text-sm md:mb-10"
+            >
               (click on the events for details)
-            </p>
+            </motion.p>
 
             <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-4">
               {filteredEvents.length > 0 ? (
@@ -244,7 +250,7 @@ const EventsPage = () => {
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.4, delay: index * 0.02 }}
+                    transition={{ duration: 0.4, delay: index * 0.15 }}
                   >
                     <EventCard event={event} />
                   </motion.div>
