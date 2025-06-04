@@ -181,17 +181,15 @@ const EventsPage = () => {
         <Wrapper>
           <motion.div
             className="py-12 md:py-16"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.2 }}
-            variants={fadeUp}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
           >
             <motion.div
               className="mb-8 text-center md:mb-12"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.3 }}
-              variants={fadeUp}
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
             >
               <h1 className="mb-3 text-4xl font-bold sm:text-5xl">EVENTS</h1>
               <p className="max-w-2xl mx-auto text-sm leading-snug text-txt sm:text-base">
@@ -204,10 +202,9 @@ const EventsPage = () => {
 
             <motion.div
               className="flex flex-wrap justify-start gap-2 mb-2"
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              variants={fadeUp}
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
             >
               <FilterButton
                 filterType="all"
@@ -250,7 +247,7 @@ const EventsPage = () => {
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ duration: 0.4, delay: index * 0.15 }}
+                    transition={{ duration: 0.4, delay: index * 0.08 }}
                   >
                     <EventCard event={event} />
                   </motion.div>
