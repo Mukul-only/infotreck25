@@ -13,7 +13,7 @@ function HomePage() {
   }, []);
 
   return (
-    <div className="relative flex h-screen">
+    <div className="relative flex h-[100vh]">
       <div className="absolute top-0 left-0 z-[5000] w-screen h-full flex flex-col bg-black/10">
         <Header />
         <Body />

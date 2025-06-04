@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Body = (props) => {
   return (
-    <Wrapper className="flex flex-col flex-1 w-full md:justify-between md:flex-row ">
+    <Wrapper className="flex flex-col justify-between flex-1 w-full md:flex-row ">
       <div className="flex flex-col pt-8 w-[15rem] mb:pt-36 2xl:w-[30rem] lg:w-[25rem] md:w-[20rem] ">
         <h1 className="text-5xl leading-9 tracking-tighter md:text-6xl md:leading-12 lg:leading-14 lg:text-7xl 2xl:text-8xl 2xl:leading-22 xl:leading-16 font-regular grad">
           <span className="block pt-2">Discover</span>
@@ -31,7 +31,7 @@ const Body = (props) => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-end pt-[8vh] md:pb-12">
+      <div className="flex flex-col items-center justify-end pb-8 md:pb-12">
         {/* UPDATED DISCOVER EVENT BUTTON */}
         <Link
           to="/events"
