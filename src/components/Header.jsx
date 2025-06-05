@@ -474,7 +474,7 @@ const Header = () => {
         <Link to="/" className="flex items-center" onClick={handleLinkClick}>
           <Logo className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
           <h1 className="ml-2 tracking-tighter text-white text-[4vw] sm:text-[3vw] md:text-3xl">
-            INFOTRECK'25
+            INFOTREK'25
           </h1>
         </Link>
 

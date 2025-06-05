@@ -89,10 +89,10 @@ const TeamPage = () => {
             </p>
             <h1 className="mb-6 text-4xl font-semibold sm:text-5xl">TEAM</h1>
             <p className="max-w-2xl mx-auto text-lg text-txt">
-              Behind INFOTRECK’25 INFOTRECK’25 is planned, organized, and
-              executed by the dedicated members of the ACM Student Chapter. From
-              ideation to implementation, this team has worked across different
-              areas to bring the fest to life.
+              INFOTREK’25 is planned, organized, and executed by the dedicated
+              members of the ACM Student Chapter. From ideation to
+              implementation, this team has worked across different areas to
+              bring the fest to life.
             </p>
           </div>
 

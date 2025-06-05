@@ -225,7 +225,7 @@ export const eventRichDetails = [
     detailsImage: "/assets/events/destinite.webp",
     tagline: "Where Potential Meets Opportunity.",
     introduction:
-      "Destinite is a prestigious one-on-one interview-based event, where the top performers of INFOTRECK are shortlisted and interviewed by a panel. It aims to identify not just technical proficiency, but also communication skills, mindset, and leadership potential. This is where your journey takes a leap forward.",
+      "Destinite is a prestigious one-on-one interview-based event, where the top performers of INFOTREK are shortlisted and interviewed by a panel. It aims to identify not just technical proficiency, but also communication skills, mindset, and leadership potential. This is where your journey takes a leap forward.",
     durationDetails: {
       date: "...",
       time: "...",
@@ -233,7 +233,7 @@ export const eventRichDetails = [
       platform: "Offline / Online (based on availability)",
     },
     formatAndRules: [
-      "Participation is by invitation only — top performers from INFOTRECK will be shortlisted.",
+      "Participation is by invitation only — top performers from INFOTREK will be shortlisted.",
       "Each candidate will undergo a one-on-one interview with a panel.",
       "The interview will focus on technical strengths, problem-solving abilities, and overall personality.",
       "Punctuality and professionalism are expected.",
@@ -246,7 +246,7 @@ export const eventRichDetails = [
       "Confidence, leadership potential, and overall personality.",
     ],
     whoCanParticipate: [
-      "Only shortlisted candidates from INFOTRECK.",
+      "Only shortlisted candidates from INFOTREK.",
       "Students who have demonstrated excellence in previous rounds.",
       "Participation is individual and non-transferable.",
     ],

@@ -10,10 +10,10 @@ const AboutPage = () => {
       <Wrapper>
         <div className="px-3 py-12 text-center md:py-16">
           <h1 className="mb-6 text-4xl font-bold sm:text-5xl">
-            About INFOTRECK'25
+            About INFOTREK'25
           </h1>
           <p className="max-w-2xl mx-auto mb-6 text-lg text-txt">
-            INFOTRECK'25 is the annual techno-cultural fest organized by the ACM
+            INFOTREK'25 is the annual techno-cultural fest organized by the ACM
             Student Chapter of the Department of Computer Applications (MCA) at
             National Institute of Technology, Tiruchirappalli (NITT). A
             celebration of innovation, creativity, and collaboration, INFOTRECK
@@ -24,23 +24,23 @@ const AboutPage = () => {
             Our Mission
           </h1>
           <p className="max-w-2xl mx-auto mb-6 text-lg text-txt">
-            At INFOTRECK, we believe in fostering a culture where technology
+            At INFOTREK, we believe in fostering a culture where technology
             meets imagination. Our mission is to bridge the gap between academia
             and the real world by encouraging students to engage with the latest
             trends in computer science, participate in hands-on events, and
             build meaningful connections. Whether you're a coder, designer,
-            gamer, or performer—INFOTRECK has something for you.
+            gamer, or performer—INFOTREK has something for you.
           </p>
           <h1 className="text-2xl font-medium sm:text-3xl text-neutral-300">
             Our Legacy
           </h1>
           <p className="max-w-2xl mx-auto mb-6 text-lg text-txt">
-            INFOTRECK has grown from a modest student-driven initiative into a
+            INFOTREK has grown from a modest student-driven initiative into a
             major campus event known for its diverse blend of technical
             contests, workshops, cultural nights, and keynote talks. Over the
             years, we’ve hosted hundreds of participants, sparked countless
             ideas, and witnessed the birth of many innovations. As we enter
-            INFOTRECK'25, we aim to set the bar even higher with new events,
+            INFOTREK'25, we aim to set the bar even higher with new events,
             bigger challenges, and unforgettable experiences.
           </p>
           <h1 className="mb-3 text-2xl font-medium sm:text-3xl text-neutral-30">

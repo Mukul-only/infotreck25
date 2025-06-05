@@ -16,10 +16,10 @@ const ContactPage = () => {
             <p>
               Email:{" "}
               <a
-                href="mailto:contact@infotreck.com"
+                href="mailto:contact@infotrek.com"
                 className="text-indigo-400 hover:underline"
               >
-                contact@infotreck.com
+                contact@infotrek.com
               </a>
             </p>
             <p></p>

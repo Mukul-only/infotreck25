@@ -193,7 +193,7 @@ const EventsPage = () => {
             >
               <h1 className="mb-3 text-4xl font-bold sm:text-5xl">EVENTS</h1>
               <p className="max-w-2xl mx-auto text-sm leading-snug text-txt sm:text-base">
-                Welcome to INFOTRECK'2025, presented by the ACM Club. Browse
+                Welcome to INFOTREK'2025, presented by the ACM Club. Browse
                 through a range of technical and non-technical events and
                 register to be part of the excitement. Pick your interests, join
                 the action, and showcase your skills!
